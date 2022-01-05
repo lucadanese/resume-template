@@ -2,20 +2,22 @@
 - degree: Phd in Statistics
   uni: University of Milano - Bicocca
   year: 2021 &mdash; Now
-  #awards:
-  #  - award: Summa Cumme Laude graduate
-  #summary: If you had any meaningful roles at college, feel free to write about them here
+  awards:
+    - award: Summa Cumme Laude graduate
+  summary: If you had any meaningful roles at college, feel free to write about them here
 
 - degree: MSC in Statistics
   uni: University of Milano - Bicocca
   year: 2018 &mdash; 2020
   #awards:
-  #  - award: Summa Cumme Laude graduate
-  #summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: Summa Cumme Laude graduate
+  summary: If you had any meaningful roles at college, feel free to write about them here
   
   - degree: BSC in Statistics
   uni: University of Milano - Bicocca
   year: 2015 &mdash; 2018
-  #awards:
-  #  - award: Summa Cumme Laude graduate
+  awards:
+    - award: 
+  
+  
   #summary: If you had any meaningful roles at college, feel free to write about them here
