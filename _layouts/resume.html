@@ -222,7 +222,7 @@
       <div class="container more-container">
         <div class="resume-item">
           <div class="col-md-12">
-            {{ site.more_content | strip | markdownify | page.excerpt | strip_html | strip_newlines | truncate: 160  }}
+            {{ site.more_content | markdownify | strip_newlines | truncate: 160  }}
           </div>
         </div>
       </div>
