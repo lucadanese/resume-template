@@ -223,8 +223,9 @@
       </header>
       
       <div class="container more-container">
-        <div class="resume-item">
-            {{ site.more_content }}
+        <div class="row clearfix">
+          <div class="col-md-12">
+            {{ site.more_content | strip | markdownify }}
         </div>
       </div>
 
