@@ -48,26 +48,7 @@
 
       </header>
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
 
-        <header class="section-header">
-          <h2>Publications</h2>
-        </header>
-
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <p>  <strong>Articles in referred journals </strong> </p>
-          <ul>
-              <li>Corradin R., <strong>Danese L.</strong>, Ongaro A. (2022). Bayesian nonparametric change point detection for multivariate time series with missing observations, International Journal of Approximate Reasoning, Volume 143, 2022, Pages 26-43, ISSN 0888-613X, <a href="https://www.sciencedirect.com/science/article/pii/S0888613X21002231">Link</a></li>
-          </ul>
-        </div><!-- end of resume-item -->
-        {% endfor %}
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
 
 
       {% if site.resume_section_education %}
@@ -95,6 +76,27 @@
         {% endfor %}
       </section>
       <!-- end Education -->
+      {% endif %}
+      
+            {% if site.resume_section_experience %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for job in site.data.experience %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <p>  <strong>Articles in referred journals </strong> </p>
+          <ul>
+              <li>Corradin R., <strong>Danese L.</strong>, Ongaro A. (2022). Bayesian nonparametric change point detection for multivariate time series with missing observations, International Journal of Approximate Reasoning, Volume 143, 2022, Pages 26-43, ISSN 0888-613X, <a href="https://www.sciencedirect.com/science/article/pii/S0888613X21002231">Link</a></li>
+          </ul>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Experience -->
       {% endif %}
 
 
@@ -216,21 +218,6 @@
       <!-- end Links -->
       {% endif %}
       
-      <!-- begin Publications -->
-      <section class="content-section">
-      
-      <header class="section-header">
-          <h2>Publications</h2>
-      </header>
-      
-      <div class="container more-container">
-        <div class="row clearfix">
-          <div class="col-md-12">
-            {{ site.more_content | strip | markdownify }}
-        </div>
-      </div>
-
-      <!-- end Projects -->
 
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
