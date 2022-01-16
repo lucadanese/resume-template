@@ -53,14 +53,17 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Publications</h2>
         </header>
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          <h3 Articles in referred journals</h3>
+          <ol>
+              <li>first item</li>
+              <li>second item</li>
+              <li>third item</li>
+          </ol>
         </div><!-- end of resume-item -->
         {% endfor %}
 
